@@ -1,0 +1,60 @@
+.case_studies{
+    width: 600px;
+    margin: auto;
+
+}
+.case_studies{
+    text-align: center;
+    margin-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+.case_p{
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    color: rgb(126, 122, 122);
+    line-height: 23px;
+}
+.about_studies_container{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    gap: 40px;
+    margin-top: 90px;
+}
+
+.college_img{
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+}
+.about_studies_h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.read_more{
+    background-color: rgb(196, 101, 13);
+    width: 140px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.tech{
+    background-color: rgb(237, 237, 200);
+    width: 90px;
+    height: 25px;
+    font-size: 17px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 94, 0);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
