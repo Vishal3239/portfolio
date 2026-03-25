@@ -1,0 +1,31 @@
+import './RecentWork.css';
+export default function Recent_work(){
+    return (
+        <>
+            <div className="recentwork_container">
+                <div className='recentwork'>
+                    <h1 className='recentwork_h1'>Recent Work</h1>
+                    <p className='recentwork_p'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, libero reprehenderit quas aut, accusamus hic nihil repudiandae consequatur repellat magnam sapiente eos facilis quam iure quis! Facilis, accusamus. Omnis, libero.</p>
+                </div>
+                <div className='recentwork_flex'>
+                   <div  className='left'><spain>&lt;</spain></div> 
+                    <div>
+                        <img className='recentwork_img' src="/public/management-system.jpeg" alt="" />
+                        <h2 className='recentwork_h2'>Work name here</h2>
+                        <p className='recentwork_p'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est doloribus nostrum architecto necessitatibus quae, recusandae sunt in! Officiis velit fuga doloribus consectetur voluptates debitis architecto sit eius blanditiis? Maxime, laborum?</p>
+                        <div className='knowmore'>Know more </div>
+                    </div>
+                    <div>
+                        <img className='recentwork_img' src="/public/new.jpg" alt="" />
+                        <h2 className='recentwork_h2'>Work name here</h2>
+                        <p className='recentwork_p'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est doloribus nostrum architecto necessitatibus quae, recusandae sunt in! Officiis velit fuga doloribus consectetur voluptates debitis architecto sit eius blanditiis? Maxime, laborum?</p>
+                        <div className='knowmore'>Know more </div>
+                    </div>
+                    <div  className='left'><spain>&gt;</spain></div> 
+                </div>
+
+            </div>
+        
+        </>
+    );
+}

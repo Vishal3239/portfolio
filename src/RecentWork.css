@@ -1,0 +1,145 @@
+
+.recentwork{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 700px;
+    margin: auto; 
+    padding-top: 50px;
+    
+}
+.recentwork_h1{
+    color: rgb(0, 0, 0);
+}
+.recentwork_p{
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    color: rgb(42, 37, 37);
+    line-height: 23px;
+}
+.recentwork_flex{
+    padding-top: 50px;
+    display: flex;
+    gap: 40px;
+    
+    margin: auto;
+    
+}
+.recentwork_flex > div{
+    width: 500px;
+}
+
+.recentwork_img{
+    /* height: 300px;
+    width: 500px; */
+    max-width:100%;
+    height:auto;
+}
+.recentwork_h2{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.knowmore{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(13, 146, 6);
+    width: 130px;
+    height: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    border-radius: 5px;
+}
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left>span{
+    border: 1px solid rgb(70, 67, 67);
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    
+}
+
+
+/* Tablet */
+@media (max-width:1024px){
+
+.recentwork{
+    width:90%;
+}
+
+.recentwork_flex{
+    gap:30px;
+}
+
+.recentwork_flex > div{
+    width:100%;
+}
+
+.recentwork_img{
+    width:100%;
+    height:auto;
+}
+
+}
+
+
+/* Mobile */
+@media (max-width:768px){
+
+.recentwork{
+    width:90%;
+}
+
+.recentwork_flex{
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+}
+
+.recentwork_flex > div{
+    width:100%;
+}
+
+.recentwork_img{
+    width:100%;
+    height:auto;
+}
+
+.knowmore{
+    margin:auto;
+    margin-top:15px;
+}
+
+}
+
+
+/* Small Mobile */
+@media (max-width:480px){
+
+.recentwork_h1{
+    font-size:26px;
+}
+
+.recentwork_p{
+    font-size:14px;
+    line-height:20px;
+}
+
+.knowmore{
+    width:110px;
+    height:35px;
+    font-size:14px;
+}
+
+.left>span{
+    width:22px;
+    height:22px;
+}
+
+}

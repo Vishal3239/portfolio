@@ -1,7 +1,7 @@
 import './Body.css';
 import React, { useState } from "react";
 export default function Body_section(){
-    const [open, setOpen] = useState(false);
+    
     return(
         <>
             <div className='case_studies'>
@@ -23,7 +23,7 @@ export default function Body_section(){
 
             <div className='about_studies_container'>
                 <div>
-                    <img className='college_img' src="/public/new.jpg" alt="" />
+                    <img className='college_img' src="/public/management-system.jpeg" alt="" />
                 </div>
                 <div className='about_studies'>
                     <div className='tech'>Tech</div>

@@ -5,6 +5,9 @@
 // import './App.css'
 import Navbar from "./Navbar"
 import Body_section from "./Body_section"
+import Testimonial from "./Testimonial"
+import Recent_work from "./Recent_woek"
+import Footer from "./Footer"
 
 function App() {
   
@@ -13,6 +16,9 @@ function App() {
     <>
       <Navbar></Navbar>
       <Body_section></Body_section>
+      <Testimonial></Testimonial>
+      <Recent_work></Recent_work>
+      <Footer></Footer>
     </>
   )
 }

@@ -1,10 +1,10 @@
 .main{
     background-color: black;
-    height: 700px;
+    padding-bottom: 40px;
 }
 
 .Navbar{
-    margin: auto;
+    /* margin: auto;
     display: flex;
     gap: 70px;
     color: rgb(226, 216, 216);
@@ -12,7 +12,16 @@
     background-color: rgb(17, 16, 16);
     max-width: 80%;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+    margin:auto;
+    display:flex;
+    gap:70px;
+    color:rgb(226,216,216);
+    height:60px;
+    background-color:rgb(17,16,16);
+    max-width:80%;
+    justify-content:center;
+    align-items:center;
     
 }
     
@@ -87,4 +96,153 @@
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 10px;
     box-shadow: 0px 4px 10px 0px rgb(25, 24, 24);
+}
+
+
+
+
+
+/* Tablet */
+@media (max-width:1024px){
+
+.about_container{
+    gap:80px;
+    margin-top:80px;
+}
+
+.about{
+    margin-left:80px;
+}
+
+.img{
+    height:280px;
+    width:280px;
+}
+
+.skill_container{
+    flex-wrap:wrap;
+}
+
+}
+
+
+/* Mobile */
+@media (max-width:768px){
+
+/* .Navbar{
+    gap:25px;
+    max-width:95%;
+} */
+
+.about_container{
+    flex-direction:column-reverse;
+    align-items:center;
+    text-align:center;
+    gap:40px;
+}
+
+.about{
+    margin-left:0;
+    padding:0 20px;
+}
+
+.img{
+    height:240px;
+    width:240px;
+}
+
+.button{
+    margin:auto;
+    margin-top:30px;
+}
+
+.skill{
+    margin-left:0;
+    text-align:center;
+}
+
+.skill_container{
+    margin-left:0;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+}
+
+
+/* Small Mobile */
+@media (max-width:480px){
+
+/* .Navbar{
+    gap:15px;
+}
+
+.Navbar *{
+    font-size:14px;
+} */
+
+.h1{
+    font-size:30px;
+}
+
+.p{
+    font-size:14px;
+    line-height:20px;
+}
+
+.img{
+    height:200px;
+    width:200px;
+}
+
+.button{
+    width:220px;
+    height:45px;
+    font-size:18px;
+}
+
+.skill_container >div{
+    width:140px;
+    height:60px;
+}
+
+}
+
+/* Tablet */
+@media (max-width:1024px){
+
+.Navbar{
+    gap:40px;
+    max-width:90%;
+}
+
+}
+
+
+/* Mobile */
+@media (max-width:768px){
+
+.Navbar{
+    flex-wrap:wrap;
+    gap:15px;
+    height:auto;
+    padding:10px;
+}
+
+.Navbar div{
+    width:45%;
+    text-align:center;
+}
+
+}
+
+
+/* Small Mobile */
+@media (max-width:480px){
+
+.Navbar div{
+    width:30%;
+    font-size:15px;
+}
+
 }
