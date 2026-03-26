@@ -89,6 +89,7 @@
     
 }
 .skill_container >div{
+    width: 32% !important;
     display: flex;
     border: 1px solid rgb(108, 103, 103);
     height: 70px;
@@ -222,7 +223,7 @@
 
 
 /* Mobile */
- @media (max-width:768px){ 
+ /* @media (max-width:768px){ 
 
 .Navbar{
     flex-wrap:wrap;
@@ -236,7 +237,7 @@
     text-align:center;
 }
 
-} 
+}  */
 
 
 /* Small Mobile */
@@ -257,11 +258,13 @@
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 10px;
+    width: 100%;
+    padding: 0 10px;
 }
 
 .skill_container > div{
-    width: 30%;   /* 👈 3 cards per row */
-    height: 60px; /* thoda compact */
+    width: 32%;   /* 👈 3 per row */
+    height: 60px;
 }
 
 }
