@@ -222,7 +222,7 @@
 
 
 /* Mobile */
-@media (max-width:768px){
+/* @media (max-width:768px){
 
 .Navbar{
     flex-wrap:wrap;
@@ -236,7 +236,7 @@
     text-align:center;
 }
 
-}
+} */
 
 
 /* Small Mobile */
@@ -253,19 +253,15 @@
 
 .skill_container{
     margin-left: 0;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    gap: 8px;              /* 👈 gap kam */
+    gap: 10px;
 }
 
 .skill_container > div{
-    width: 48px;           /* 👈 small size */
-    height: 48px;
-    flex-shrink: 0;
-}
-
-/* icon size bhi thoda chhota */
-.skill_container span svg{
-    font-size: 20px !important;
+    width: 30%;   /* 👈 3 cards per row */
+    height: 60px; /* thoda compact */
 }
 
 }
