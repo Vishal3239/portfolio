@@ -89,7 +89,7 @@
     
 }
 .skill_container >div{
-    width: 32% !important;
+    /* width: 32% !important; */
     display: flex;
     border: 1px solid rgb(108, 103, 103);
     height: 70px;
