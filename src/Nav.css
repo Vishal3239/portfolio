@@ -75,6 +75,8 @@
 }
 
 .skill{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(207, 201, 201);
     margin-left: 150px;
     margin-top: 40px;
     font-weight: bold;
@@ -243,6 +245,27 @@
 .Navbar div{
     width:30%;
     font-size:15px;
+}
+
+}
+
+@media (max-width:768px){
+
+.skill_container{
+    margin-left: 0;
+    justify-content: space-between;
+    gap: 8px;              /* 👈 gap kam */
+}
+
+.skill_container > div{
+    width: 48px;           /* 👈 small size */
+    height: 48px;
+    flex-shrink: 0;
+}
+
+/* icon size bhi thoda chhota */
+.skill_container span svg{
+    font-size: 20px !important;
 }
 
 }

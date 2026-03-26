@@ -114,24 +114,13 @@
 @media (max-width:768px){
 
 .contact-section{
-    padding:60px 20px;
+    padding: 50px 10px;
 }
 
 .contact-container{
-    width:100%;
-}
-
-.contact-title{
-    font-size:28px;
-}
-
-.contact-desc{
-    font-size:13px;
-}
-
-.submit-btn{
-    width:100%;
-    padding:14px;
+    width: 90%;        /* 👈 full nahi, thoda chhota */
+    max-width: 350px;  /* 👈 limit lagao */
+    margin: auto;      /* 👈 center */
 }
 
 }
@@ -140,26 +129,19 @@
 /* Small Mobile */
 @media (max-width:480px){
 
-.contact-title{
-    font-size:24px;
+.contact-container{
+    width: 85%;
+    max-width: 320px;
 }
 
-.contact-desc{
-    font-size:12px;
-    line-height:1.5;
-}
-
-.input-field{
-    padding:10px;
+.input-field,
+.message-field{
+    padding: 10px;
+    font-size: 13px;
 }
 
 .message-field{
-    height:120px;
-}
-
-.submit-btn{
-    font-size:14px;
-    padding:12px;
+    height: 110px;
 }
 
 }
