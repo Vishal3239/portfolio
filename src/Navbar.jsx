@@ -34,7 +34,7 @@ export default function Navbar(){
                     </div>
                 </div>
                 <div>
-                    <img className='img' src="/public/vishal.png" alt="vishal patel" />
+                    <img className='img' src="vishal.png" alt="vishal patel" />
                 </div>
             </div>
             <div className='skill'><p>Worked with</p></div>

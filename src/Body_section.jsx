@@ -16,14 +16,14 @@ export default function Body_section(){
                         <div className='read_more'>Read More</div>
                 </div>
                 <div>
-                    <img className='college_img' src="/public/management-system.jpeg" alt="" />
+                    <img className='college_img' src="management-system.jpeg" alt="" />
                 </div>
             </div>
 
 
             <div className='about_studies_container'>
                 <div>
-                    <img className='college_img' src="/public/management-system.jpeg" alt="" />
+                    <img className='college_img' src="management-system.jpeg" alt="" />
                 </div>
                 <div className='about_studies'>
                     <div className='tech'>Tech</div>
@@ -44,7 +44,7 @@ export default function Body_section(){
                         <div className='read_more'>Read More</div>
                 </div>
                 <div>
-                    <img className='college_img' src="/public/DSA.jpg" alt="" />
+                    <img className='college_img' src="DSA.jpg" alt="" />
                 </div>
             </div>
         </>
