@@ -107,8 +107,9 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .recentwork_img{
-    width:100%;
-    height:auto;
+    width: 100%;
+    max-width: 100%;   /* 👈 450px hata do */
+    height: auto;
 }
 
 .knowmore{
