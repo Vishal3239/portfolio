@@ -28,15 +28,21 @@
     gap: 40px;
     margin-top: 90px;
     align-items: center;
+    /* display: flex;
+    gap: 40px;
+    align-items: center; */
+    
 }
 
 .college_img{
     /* height: 300px;
     width: 500px;
     border-radius: 10px; */
-    max-width:100%;
-height:auto;
-border-radius:10px;
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    border-radius: 10px;
+    flex-shrink: 0;
 }
 .about_studies_h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -112,10 +118,8 @@ border-radius:10px;
 /* image size fix */
 .about_studies_container img{
     width: 100%;
-    max-width: 450px;
+    max-width: 100%;   /* 👈 450px hata do */
     height: auto;
-    flex-shrink: 0;   /* 👈 important */
-    object-fit: cover;
 }
 
 /* content width control */
