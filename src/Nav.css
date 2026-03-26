@@ -261,7 +261,7 @@
 }
 
 .skill_container > div{
-    width: calc(33.33% - 10px);  /* 👈 exact 3 column */
+    width: calc(33.33% - 10px) !important;;  /* 👈 exact 3 column */
     height: 60px;
 }
 
