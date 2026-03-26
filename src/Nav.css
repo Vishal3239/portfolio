@@ -82,6 +82,7 @@
     font-weight: bold;
 }
 .skill_container{
+    max-width:80%;
     display: flex;
     gap: 20px;
     color: rgb(113, 104, 104);
