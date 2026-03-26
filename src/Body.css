@@ -111,10 +111,11 @@ border-radius:10px;
 
 /* image size fix */
 .about_studies_container img{
-    order:1;
-    width:100%;
-    max-width:450px;
-    height:auto;
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    flex-shrink: 0;   /* 👈 important */
+    object-fit: cover;
 }
 
 /* content width control */
