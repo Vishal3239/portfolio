@@ -8,12 +8,15 @@ import { IoLogoJavascript } from "react-icons/io";
 import { FaPhp } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
 import { FaLaravel } from "react-icons/fa";
+import { useState } from "react";
+import { FaBars } from "react-icons/fa";
 
 export default function Navbar(){
+    const [open, setOpen] = useState(false);
     return(
        <>
         <div className='main'>
-            <div className='Navbar'>
+            {/* <div className='Navbar'>
                 <div>Home</div>
                 <div>Case Studies</div>
                 <div>Testimonaials</div>
@@ -22,7 +25,27 @@ export default function Navbar(){
                 <div>
                     <CiLinkedin /> <FaBehance /> <FaTwitterSquare />   
                 </div>
-            </div>
+            </div>  */}
+
+            <div className='Navbar'>
+
+    <div className='menu_icon' onClick={() => setOpen(!open)}>
+        <FaBars />
+    </div>
+
+    <div className={`nav_items ${open ? "active" : ""}`}>
+        <div>Home</div>
+        <div>Case Studies</div>
+        <div>Testimonaials</div>
+        <div>Recent work</div>
+        <div>Get In Toutch</div>
+        <div>
+            <CiLinkedin /> <FaBehance /> <FaTwitterSquare />   
+        </div>
+    </div>
+
+</div>
+            
             <div className='about_container'>
                 <div className='about'>
                     <h1 className='h1'>Vishal Patel</h1>
