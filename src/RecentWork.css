@@ -32,8 +32,13 @@
 .recentwork_img{
     /* height: 300px;
     width: 500px; */
-    max-width:100%;
-    height:auto;
+    /* max-width:100%;
+    height:auto; */
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    border-radius: 10px;
+    flex-shrink: 0;
 }
 .recentwork_h2{
 font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -108,7 +113,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 .recentwork_img{
     width: 100%;
-    max-width: 100%;   /* 👈 450px hata do */
+    max-width: 100%;   
     height: auto;
 }
 
