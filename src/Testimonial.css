@@ -30,7 +30,9 @@
 }
 
 .testimonial-card{
-    width: 350px;
+    max-width:350px;
+    width:100%;
+    
     padding: 25px;
     /* border:1px solid transparent; */
     border-radius: 8px;
@@ -161,6 +163,21 @@
 .client-img{
     width:40px;
     height:40px;
+}
+
+}
+
+/* Tablet / Phone Desktop Mode */
+@media (min-width:769px) and (max-width:1024px){
+
+.testimonial-container{
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:30px;
+}
+
+.testimonial-card{
+    width:45%;
 }
 
 }

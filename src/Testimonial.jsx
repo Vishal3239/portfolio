@@ -20,7 +20,7 @@ export default function Testimonial() {
                     </p>
 
                     <div className="client-info">
-                        <img src="/public/vishal.png" className="client-img"/>
+                        <img src="vishal.png" className="client-img"/>
                         <span className="client-name">Client Name</span>
                     </div>
                 </div>
@@ -33,7 +33,7 @@ export default function Testimonial() {
                     </p>
 
                     <div className="client-info">
-                        <img src="/public/vishal.png" className="client-img"/>
+                        <img src="vishal.png" className="client-img"/>
                         <span className="client-name">Client Name</span>
                     </div>
                 </div>

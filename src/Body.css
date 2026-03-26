@@ -130,34 +130,3 @@ border-radius:10px;
 }
 
 }
-
-@media (max-width:768px){
-
-.about_studies_container{
-    flex-direction: column;
-    text-align: center;
-}
-
-/* image always first */
-.about_studies_container img{
-    order:1;
-    width:100%;
-    height:auto;
-}
-
-/* content second */
-.about_studies{
-    order:2;
-}
-
-.read_more{
-    margin:auto;
-    margin-top:15px;
-}
-
-.tech{
-    margin:auto;
-    margin-bottom:10px;
-}
-
-}
