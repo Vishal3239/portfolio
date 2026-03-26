@@ -222,7 +222,7 @@
 
 
 /* Mobile */
-/* @media (max-width:768px){
+ @media (max-width:768px){ 
 
 .Navbar{
     flex-wrap:wrap;
@@ -236,7 +236,7 @@
     text-align:center;
 }
 
-} */
+} 
 
 
 /* Small Mobile */
